@@ -1,0 +1,13 @@
+{
+  "name": "foodiego-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start:server": "node server/src/index.js",
+    "dev:server": "node --watch server/src/index.js",
+    "dev:client": "pnpm --dir client dev",
+    "build:client": "pnpm --dir client build",
+    "test:server": "node server/tests/api.test.js",
+    "test": "node server/tests/api.test.js"
+  }
+}

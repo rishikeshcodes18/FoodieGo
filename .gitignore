@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.env.*
+*.log
+*firebase-adminsdk*.json
+foodiego.db-journal
+foodiego.db-wal
+foodiego.db-shm
+*.db
